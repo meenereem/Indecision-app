@@ -7,7 +7,7 @@ const OptionModal = (props) => (
         //closes when click background or press esc key
         onRequestClose={props.handleClearSelectedOption}
         contentLabel="Selected Option"
-        closeTimeoutMS={200}
+        closeTimeoutMS={0}
         className="modal"
     >
         <h3 className="modal__title">Selected Option</h3>
